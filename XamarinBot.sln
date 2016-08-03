@@ -17,6 +17,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinBot", "XamarinBot\Xa
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamarinBot\XamarinBot\XamarinBot.projitems*{555d2a09-8eaa-4b2a-8f5f-bb2b9d34535c}*SharedItemsImports = 4
+		XamarinBot\XamarinBot\XamarinBot.projitems*{5fdf1f26-850f-4749-b518-ca89d608e9b7}*SharedItemsImports = 4
+		XamarinBot\XamarinBot\XamarinBot.projitems*{73fb8028-9eae-45f7-a14b-10bead35270c}*SharedItemsImports = 4
+		XamarinBot\XamarinBot\XamarinBot.projitems*{78e5186c-25ef-4370-8df9-abe6a76ce463}*SharedItemsImports = 4
+		XamarinBot\XamarinBot\XamarinBot.projitems*{9887650e-4180-4b1b-baa4-9584bd30cf42}*SharedItemsImports = 4
 		XamarinBot\XamarinBot\XamarinBot.projitems*{e58ca835-0208-4ad1-8da5-59f8c28029f4}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

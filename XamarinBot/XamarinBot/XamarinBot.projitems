@@ -10,8 +10,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ChatMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\LuisModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\OpenWeatherForecastModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\OpenWeatherObjectModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\WeatherPage.xaml.cs">
+      <DependentUpon>WeatherPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LuisService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\OpenWeatherService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\WeatherPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
